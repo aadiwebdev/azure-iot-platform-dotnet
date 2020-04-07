@@ -12,10 +12,10 @@ stages:
     jobs:
       - template: ../templates/jobs-deploy-infra.yaml
         parameters:
-          subscriptionName: Visual Studio Enterprise – MPN
+          subscriptionName: Visual Studio Enterprise Subscription – MPN
           locationName: $(locationName)
           environmentName: IoT_Demo
-          subscriptionId: c36fb2f8-f98d-40d0-90a9-d65e93acb428
+          subscriptionId: d2413346-1d72-4ae7-8969-64fbdf906cf8
           applicationCode: iotdemo
           applicationShortCode: iotd
           environmentCategory: test

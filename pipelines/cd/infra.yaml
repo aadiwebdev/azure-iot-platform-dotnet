@@ -3,7 +3,7 @@ pr: none
 pool:
   vmImage: ubuntu-latest
 variables:
-  platformOperationServiceConnection: TestServiceConnection
+  platformOperationServiceConnection: 3MInfraConnection
   locationName: centralus
 stages:
   - stage: newEnv
